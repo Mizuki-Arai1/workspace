@@ -1,0 +1,33 @@
+/* IDセレクター */
+#firsttitle {
+    color: #3498db; /* テキスト色を水色に */
+    font-weight: bold; /* 太字 */
+}
+/* 子孫セレクター */
+section p {
+  background-color: #eee; /* 背景色を薄いグレーに */
+}
+/* 擬似クラス */
+a:link {
+  color: #0000ff; /* 通常時のテキスト色を青に */
+}
+a:hover {
+  color: #ff0000; /* ホバー時のテキスト色を赤に */
+}
+a:visited {
+  color: #999999; /* 訪問済のテキスト色をグレーに */
+}
+* {
+    margin: 0;
+    padding: 100;
+}
+/* 大きさの記法（パーセント） */
+.overview {
+  width: 80%; /* 幅を80%に */
+}
+p.overview {
+    color: red;
+}
+p {
+    color: green;
+}
